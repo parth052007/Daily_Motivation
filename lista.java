@@ -3,6 +3,9 @@ public class lista {
     public static void main(String []args){
         ArrayList<String> names = new ArrayList<>();
         ArrayList<Integer> number = new ArrayList<>();
+        List<String> a = new ArrayList<>(); // creation of normal list
+        a.add("student");
+
         names.add("suaysh");
         names.add("pranay");
         names.add("parth");
@@ -23,6 +26,8 @@ public class lista {
         System.out.println(names.get(2));//same as above
         System.out.println("size of names are:"+names.size());
         System.out.println(names.isEmpty());
+        System.out.println("list elements are:"+a);
+    a.toArray();
     }
     
 }
